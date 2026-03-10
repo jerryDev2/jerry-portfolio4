@@ -335,7 +335,7 @@ function OurService() {
           </motion.button>
         </motion.div>
 
-        {/* SEO Optimization */}
+        {/* Database Design */}
         <motion.div
           onClick={toggleVisibility4}
           className="bg-linear-to-r from-[#1f003d] to-[#0f0015] rounded-[10px] cursor-pointer flex flex-col md:flex-row items-start md:items-center p-6 md:p-8 gap-4 w-full"
@@ -353,10 +353,11 @@ function OurService() {
               className="lg:text-2xl md:text-xl font-bold text-white"
               variants={itemVariants}
             >
-              SEO Optimization
+              Database Design
             </motion.h2>
             <motion.p className="text-white mt-3 mb-3" variants={itemVariants}>
-              Implementing strategies to improve website visibility and ranking.
+              IDesigning and managing efficient, scalable databases to power
+              your applications.
             </motion.p>
             <motion.div
               className={`${isVisible4 === true ? "block" : "hidden"}`}
@@ -368,28 +369,28 @@ function OurService() {
                   variants={itemVariants}
                 >
                   <i className="fa-solid fa-check text-[12px] text-[#979797]"></i>
-                  Keyword Research
+                  Database Schema Design
                 </motion.li>
                 <motion.li
                   className="flex items-center gap-2"
                   variants={itemVariants}
                 >
                   <i className="fa-solid fa-check text-[12px] text-[#979797]"></i>
-                  On-Page Optimization
+                  REST API Integration
                 </motion.li>
                 <motion.li
                   className="flex items-center gap-2"
                   variants={itemVariants}
                 >
                   <i className="fa-solid fa-check text-[12px] text-[#979797]"></i>
-                  Link Building
+                  Authentication & Security (JWT / OAuth)
                 </motion.li>
                 <motion.li
                   className="flex items-center gap-2"
                   variants={itemVariants}
                 >
                   <i className="fa-solid fa-check text-[12px] text-[#979797]"></i>
-                  Analytics Tracking
+                  Data Modeling & Optimization
                 </motion.li>
               </motion.ul>
             </motion.div>

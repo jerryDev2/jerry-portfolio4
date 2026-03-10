@@ -7,17 +7,9 @@ function Typing() {
       <span>
         <Typewriter
           words={[
-            "Programmer",
-            "UI/UX Designser",
-            "Graphix Designer",
-            "Web Developer",
+           "Full-Stack Web Apps"
           ]}
-          loop={1000}
-          cursor
-          cursorStyle="|"
-          typeSpeed={30}
-          deleteSpeed={20}
-          delaySpeed={1500}
+         
         />
       </span>
     </div>

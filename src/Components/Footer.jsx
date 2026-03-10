@@ -10,7 +10,7 @@ function Footer() {
           <div>
             <h3 className="text-lg font-semibold">Jerry Dev</h3>
             <p className="text-sm text-gray-300 hidden sm:block">
-              Frontend Developer — crafting delightful web experiences
+              SoftWare Engineer — crafting delightful sofware experiences
             </p>
           </div>
         </div>
@@ -43,10 +43,8 @@ function Footer() {
         </nav>
 
         <div className="flex flex-col items-center md:items-end text-sm text-gray-300">
-          <a href="mailto:Jerrydc56538@gmail.com" className="hover:text-pink-400">
-            Jerrydc56538@gmail.com
-          </a>
-          <div className="flex gap-3 mt-3">
+          
+          <div className="flex gap-3 ">
             {/* GitHub */}
             <a
               href="https://github.com/"

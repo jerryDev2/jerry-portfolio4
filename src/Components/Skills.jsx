@@ -1,5 +1,25 @@
 import React from "react";
 import { motion } from "framer-motion";
+import html from "../assets/img/html.png"
+import css from "../assets/img/css.png";
+import javascript from "../assets/img/javaScript.png"
+import react from "../assets/img/react.png"
+import tailwind from "../assets/img/tailwind.png"
+import motionImg from "../assets/img/motion.png"
+import java from "../assets/img/java.png"
+import cSharp from "../assets/img/cSharp.png";
+import springBoot from "../assets/img/springBoot.png"
+import dotnet from "../assets/img/dotnet.png"
+import sql from "../assets/img/sql.png"
+import mongodb from "../assets/img/mongodb.png"
+import git from "../assets/img/git.png"
+import github from "../assets/img/github.png"
+import figma from "../assets/img/figma.png"
+import vscode from "../assets/img/vscode.png";
+import intelij from "../assets/img/intelij.png";
+import photoshop from "../assets/img/photoshop.png";
+
+
 
 function Skills() {
   const containerVariants = {
@@ -60,117 +80,67 @@ function Skills() {
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
         >
-          <motion.h3 className="text-white text-[16px] mb-3">
-            HTML/CSS
+          <img src={html} alt="" width={"70px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mb-3">
+            HTML
           </motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "95%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">95%</h3>
         </motion.div>
 
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
         >
-          <motion.h3 className="text-white text-[16px] mb-3">
+          <img src={css} alt="" width={"60px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mb-3">
+            CSS
+          </motion.h3>
+        </motion.div>
+
+        <motion.div
+          variants={cardVariants}
+          whileHover="hover"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
+        >
+          <img src={javascript} alt="" width={"40px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mb-3">
             JavaScript
           </motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "80%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">80%</h3>
         </motion.div>
 
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
         >
-          <motion.h3 className="text-white text-[16px] mb-3">React</motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "85%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">85%</h3>
-        </motion.div>
-
-        <motion.div
-          variants={cardVariants}
-          whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
-        >
-          <motion.h3 className="text-white text-[16px] mb-3">
-            React Native
+          <img src={react} alt="" width={"55px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mb-3">
+            React
           </motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "75%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">75%</h3>
         </motion.div>
 
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
         >
-          <motion.h3 className="text-white text-[16px] mb-3">
-            Tailwind
+          <img src={tailwind} alt="" width={"60px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mb-3">
+            Tailwind CSS
           </motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "95%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">95%</h3>
         </motion.div>
 
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
         >
-          <motion.h3 className="text-white text-[16px] mb-3">Motion</motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "80%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">80%</h3>
+          <img src={motionImg} alt="" width={"50px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mb-3 mt-2">
+            Framer Motion
+          </motion.h3>
         </motion.div>
       </motion.section>
       <motion.h2
@@ -184,7 +154,7 @@ function Skills() {
         BACKEND DEVELOPMENT
       </motion.h2>
       <motion.section
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 w-full md:w-[55%] mx-auto gap-6 p-6 md:p-10 justify-center"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 w-full md:w-[100%] mx-auto gap-6 p-6 md:p-10 justify-center"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -193,55 +163,47 @@ function Skills() {
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
         >
-          <motion.h3 className="text-white text-[16px] mb-3">Java</motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "75%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">75%</h3>
+          <img src={java} alt="" width={"60px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mb-3">
+            Java
+          </motion.h3>
         </motion.div>
+
+
 
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
         >
-          <motion.h3 className="text-white text-[16px] mb-3">MongoDB</motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "80%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">80%</h3>
+          <img src={springBoot} alt="" width={"50px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mt-4  mb-3">
+            Spring-boot
+          </motion.h3>
         </motion.div>
+        
 
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
         >
-          <motion.h3 className="text-white text-[16px] mb-3">Csharp</motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "80%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">80%</h3>
+          <img src={sql} alt="" width={"50px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mt-3 mb-3">
+            SQL
+          </motion.h3>
+        </motion.div>
+        <motion.div
+          variants={cardVariants}
+          whileHover="hover"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
+        >
+          <img src={mongodb} alt="" width={"60px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mt-3 mb-3">
+            MogoDB
+          </motion.h3>
         </motion.div>
       </motion.section>
       <motion.h2
@@ -255,7 +217,7 @@ function Skills() {
         TOOLS
       </motion.h2>
       <motion.section
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 w-full md:w-[95%] mx-auto gap-6 p-6 md:p-10 border-b-2 border-[#ffffff29] justify-center"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 w-full md:w-[100%] mx-auto gap-6 p-6 md:p-10 border-b-2 border-[#ffffff29] justify-center"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -264,95 +226,67 @@ function Skills() {
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
         >
-          <motion.h3 className="text-white text-[16px] mb-3">Linux</motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "75%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">75%</h3>
-        </motion.div>
-
-        <motion.div
-          variants={cardVariants}
-          whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
-        >
-          <motion.h3 className="text-white text-[16px] mb-3">Git</motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "80%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">80%</h3>
-        </motion.div>
-
-        <motion.div
-          variants={cardVariants}
-          whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
-        >
-          <motion.h3 className="text-white text-[16px] mb-3">Figma</motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "80%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">80%</h3>
-        </motion.div>
-
-        <motion.div
-          variants={cardVariants}
-          whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
-        >
-          <motion.h3 className="text-white text-[16px] mb-3">
-            Photoshop
+          <img src={git} alt="" width={"50px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mt-3 mb-3">
+            Git
           </motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "80%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">80%</h3>
         </motion.div>
 
         <motion.div
           variants={cardVariants}
           whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d]"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
         >
-          <motion.h3 className="text-white text-[16px] mb-3">
-            Coreldraw
+          <img src={github} alt="" width={"60px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mb-3">
+            GitHub
           </motion.h3>
-          <section className="w-full bg-[#210042] p-2 overflow-hidden relative rounded-[10px]">
-            <motion.div
-              initial={{ width: 0 }}
-              whileInView={{ width: "80%" }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.9, ease: "easeOut" }}
-              className="bg-[#5f00be] absolute top-0 left-0 p-2 rounded-[10px] text-white"
-            />
-          </section>
-          <h3 className="text-white text-[14px] text-right mt-3">80%</h3>
+        </motion.div>
+
+        <motion.div
+          variants={cardVariants}
+          whileHover="hover"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
+        >
+          <img src={figma} alt="" width={"60px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mb-3">
+            Figma
+          </motion.h3>
+        </motion.div>
+
+        <motion.div
+          variants={cardVariants}
+          whileHover="hover"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
+        >
+          <img src={vscode} alt="" width={"50px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mt-3 mb-3">
+            VS Code
+          </motion.h3>
+        </motion.div>
+
+        <motion.div
+          variants={cardVariants}
+          whileHover="hover"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
+        >
+          <img src={intelij} alt="" width={"50px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mt-3 mb-3">
+            Intelij
+          </motion.h3>
+        </motion.div>
+
+        <motion.div
+          variants={cardVariants}
+          whileHover="hover"
+          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
+        >
+          <img src={photoshop} alt="" width={"50px"} />
+          <motion.h3 className="text-white text-[20px] font-semibold mt-4 mb-3">
+            PhotoShop
+          </motion.h3>
         </motion.div>
       </motion.section>
     </div>

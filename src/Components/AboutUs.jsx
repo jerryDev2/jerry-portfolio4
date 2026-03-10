@@ -6,7 +6,7 @@ function AboutUs() {
   // Initialize counters with useCounter hook
   const [experienceCount, experienceCountRef] = useCounter(1);
   const [projectsCount, projectsCountRef] = useCounter(22);
-  const [clientsCount, clientsCountRef] = useCounter(20);
+  const [clientsCount, clientsCountRef] = useCounter(2);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -72,17 +72,25 @@ function AboutUs() {
           className="text-white text-base md:text-lg w-[90%] md:w-[60%] mx-auto mb-5"
           variants={itemVariants}
         >
-          I'm a passionate web developer with a knack for creating dynamic and
-          responsive web applications. I love turning ideas into reality through
-          clean code and beautiful design.
+          I'm Jerry, a Full-Stack Web Developer based in Nigeria with 1+ year of
+          hands-on experience building web applications from scratch.
         </motion.p>
         <motion.p
           className="text-white text-base md:text-lg w-[90%] md:w-[60%] mx-auto mb-5"
           variants={itemVariants}
         >
-          My journey in web development started with HTML, CSS, and JavaScript,
-          and has evolved into a deep understanding of various frameworks and
-          libraries.
+          I specialize in building fast, responsive, and user-friendly apps
+          using React on the frontend and Node.js on the backend — from landing
+          pages to full platforms with databases and authentication.
+        </motion.p>
+
+        <motion.p
+          className="text-white text-base md:text-lg w-[90%] md:w-[60%] mx-auto mb-5"
+          variants={itemVariants}
+        >
+          I work with startups, small businesses, and entrepreneurs who need a
+          reliable developer to bring their ideas to life. I care about clean
+          code, good design, and delivering on time.
         </motion.p>
       </motion.div>
 
@@ -99,10 +107,10 @@ function AboutUs() {
             Education
           </h4>
           <h4 className="text-white text-lg md:text-xl mx-auto mb-2 font-black">
-            A.Ec Computer Science
+            ADSE (Advance Diploma in Software Engineer )
           </h4>
           <p className="mb-3 text-[#ffffffb2]">
-            National Open University of Nigeria
+            Aptech Computer Education Center
           </p>
           <h4 className="text-white text-lg md:text-xl mx-auto mb-2 font-black">
             Full Stack Software Engineer

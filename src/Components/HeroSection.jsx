@@ -52,26 +52,11 @@ function HeroSection() {
             variants={itemVariants}
           >
             <span>i'm a </span>
-            <span className="text-[#ff00ee]">
-              <Typewriter
-                words={["Web Developer", "UI/UX Designer", "Graphics Designer"]}
-                loop={1000}
-                cursor
-                cursorStyle="|"
-                typeSpeed={30}
-                deleteSpeed={20}
-                delaySpeed={1500}
-              />
-            </span>
+            <span className="text-[#ff00ee]">Full-Stack Web Developer</span>
           </motion.h3>
           <motion.p className="text-base md:text-lg" variants={itemVariants}>
-            Hi, I am Jerry, a passionate{" "}
-            <b>Full Stack Mobile and Web Developer</b>. My journey in tech is
-            driven by a desire to create seamless digital experiences that
-            captivate and engage users. With a strong foundation in both
-            front-end and back-end technologies, I specialize in building
-            responsive, user-friendly applications that meet the unique needs of
-            each client.
+            "I'm Jerry — a <b>Full-Stack Developer based in Nigeria.</b> I build
+            fast, clean web apps for startups and small businesses."
           </motion.p>
           <motion.div
             variants={itemVariants}

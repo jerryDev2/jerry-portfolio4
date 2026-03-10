@@ -100,22 +100,7 @@ function GetInTouch() {
         viewport={{ once: true, amount: 0.25 }}
         className="flex flex-col md:flex-row md:items-start items-center md:justify-center gap-8 p-6 md:p-10 bg-[#150029] text-white"
       >
-        <motion.div variants={infoVariants} className="w-full md:w-1/2">
-          <h3 className="font-bold text-2xl mb-8 ml-5"> Contact Information</h3>
-          <li className="list-none text-[18px] mb-12 flex items-center gap-3 hover:text-[#bb00ae] cursor-pointer">
-            {" "}
-            <i className="fa-solid fa-envelope text-[#bb00ae]"></i>
-            Jerrydc56538@gmail.com
-          </li>
-          <li className="list-none text-[18px] mb-12 flex items-center gap-3 hover:text-[#bb00ae] cursor-pointer">
-            <i className="fa-solid fa-phone text-[#bb00ae]"></i>
-            +2347039434273
-          </li>
-          <li className="list-none text-[18px] mb-12 flex items-center gap-3 hover:text-[#bb00ae] cursor-pointer">
-            <i className="fa-solid fa-location-dot text-[#bb00ae]"></i>
-            Benin city, Edo State, Nigeria
-          </li>
-        </motion.div>
+     
         <motion.form
           variants={formVariants}
           initial="hidden"
