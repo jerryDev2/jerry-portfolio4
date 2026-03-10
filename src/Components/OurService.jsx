@@ -268,7 +268,7 @@ function OurService() {
           </motion.button>
         </motion.div>
 
-        {/* Graphic Design */}
+        {/* E-Commerce Development */}
         <motion.div
           onClick={toggleVisibility3}
           className="bg-linear-to-r from-[#1f003d] to-[#0f0015] rounded-[10px] cursor-pointer flex flex-col md:flex-row items-start md:items-center p-6 md:p-8 gap-4 w-full"
@@ -286,10 +286,11 @@ function OurService() {
               className="lg:text-2xl md:text-xl font-bold text-white"
               variants={itemVariants}
             >
-              Graphic Design
+              E-Commerce Development
             </motion.h2>
             <motion.p className="text-white mt-3 mb-3" variants={itemVariants}>
-              Developing visually appealing graphics for web and print media.
+              Building online stores and payment-ready web applications for your
+              business.
             </motion.p>
             <motion.div
               className={`${isVisible3 === true ? "block" : "hidden"}`}
@@ -301,28 +302,28 @@ function OurService() {
                   variants={itemVariants}
                 >
                   <i className="fa-solid fa-check text-[12px] text-[#979797]"></i>
-                  Logo Design
+                  Product Listing & Cart System
                 </motion.li>
                 <motion.li
                   className="flex items-center gap-2"
                   variants={itemVariants}
                 >
                   <i className="fa-solid fa-check text-[12px] text-[#979797]"></i>
-                  Brand Identity
+                  Payment Gateway Integration
                 </motion.li>
                 <motion.li
                   className="flex items-center gap-2"
                   variants={itemVariants}
                 >
                   <i className="fa-solid fa-check text-[12px] text-[#979797]"></i>
-                  Print Design
+                  Order Management System
                 </motion.li>
                 <motion.li
                   className="flex items-center gap-2"
                   variants={itemVariants}
                 >
                   <i className="fa-solid fa-check text-[12px] text-[#979797]"></i>
-                  Illustration
+                  Secure Checkout & Authentication
                 </motion.li>
               </motion.ul>
             </motion.div>
