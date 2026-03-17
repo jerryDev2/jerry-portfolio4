@@ -1,7 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
-
+import jerryImg from "../assets/img/jerrydrawing.png"
 function HeroSection() {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -29,7 +29,7 @@ function HeroSection() {
     <section className="  min-h-screen px-4 py-8 lg:py-0">
       <main className="min-h-[90vh] flex flex-col lg:flex-row justify-between items-center w-full max-w-5xl mx-auto gap-8 lg:gap-4">
         <motion.section
-          className="text-white w-full lg:w-[50%]"
+          className="text-white w-full mb-10 sm:mb-15 md:mb-20 lg:w-[50%]"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -79,10 +79,12 @@ function HeroSection() {
           viewport={{ once: true }}
         >
           <motion.div
-            className="bg-[url('/img/last.png')] bg-cover bg-center w-full h-[400px] md:h-[500px] lg:h-[650px] rounded-2xl"
+            className=" w-[full] h-[300px]  flex items-center justify-center  mt-5  md:h-[500px]  lg:h-[650px] rounded-2xl"
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
-          ></motion.div>
+          >
+            <img src={jerryImg} alt="" width={"450px"}/>
+          </motion.div>
         </motion.section>
       </main>
     </section>

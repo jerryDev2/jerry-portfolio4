@@ -71,7 +71,7 @@ function Skills() {
         FRONTEND DEVELOPMENT
       </motion.h2>
       <motion.section
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 p-6 md:p-10 border-b-2 border-[#ffffff29] justify-center"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 p-6 md:p-10 border-b-2 border-[#ffffff29] justify-center"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -154,7 +154,7 @@ function Skills() {
         BACKEND DEVELOPMENT
       </motion.h2>
       <motion.section
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 w-full md:w-[100%] mx-auto gap-6 p-6 md:p-10 justify-center"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 w-full md:w-[100%] mx-auto gap-6 p-6 md:p-10 justify-center"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -217,7 +217,7 @@ function Skills() {
         TOOLS
       </motion.h2>
       <motion.section
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 w-full md:w-[100%] mx-auto gap-6 p-6 md:p-10 border-b-2 border-[#ffffff29] justify-center"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 w-full md:w-[100%] mx-auto gap-6 p-6 md:p-10 border-b-2 border-[#ffffff29] justify-center"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
