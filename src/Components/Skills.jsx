@@ -274,20 +274,11 @@ function Skills() {
         >
           <img src={intelij} alt="" width={"50px"} />
           <motion.h3 className="text-white text-[20px] font-semibold mt-3 mb-3">
-            Intelij
+            Intellij
           </motion.h3>
         </motion.div>
 
-        <motion.div
-          variants={cardVariants}
-          whileHover="hover"
-          className="pt-8 pb-6 px-2 rounded-lg bg-[#28004d00]"
-        >
-          <img src={photoshop} alt="" width={"50px"} />
-          <motion.h3 className="text-white text-[20px] font-semibold mt-4 mb-3">
-            PhotoShop
-          </motion.h3>
-        </motion.div>
+       
       </motion.section>
     </div>
   );

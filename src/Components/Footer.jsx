@@ -43,11 +43,11 @@ function Footer() {
         </nav>
 
         <div className="flex flex-col items-center md:items-end text-sm text-gray-300">
-          
           <div className="flex gap-3 ">
             {/* GitHub */}
             <a
-              href="https://github.com/"
+              target="blank"
+              href="https://github.com/jerryDev2"
               aria-label="GitHub"
               className="hover:text-pink-400"
             >
@@ -62,7 +62,8 @@ function Footer() {
             </a>
             {/* LinkedIn */}
             <a
-              href="https://linkedin.com/"
+              target="blank"
+              href="https://www.linkedin.com/in/jerry-ehigiator"
               aria-label="LinkedIn"
               className="hover:text-pink-400"
             >
@@ -77,7 +78,8 @@ function Footer() {
             </a>
             {/* Twitter */}
             <a
-              href="https://twitter.com/"
+              href="https://x.com/jerryscode"
+              target="blank"
               aria-label="Twitter"
               className="hover:text-pink-400"
             >

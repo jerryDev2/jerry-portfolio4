@@ -97,7 +97,7 @@ function ConnectWithUs() {
             <i className="fa-brands fa-instagram"></i>
           </motion.button>
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/jerry-ehigiator" target="blank">
           <motion.button
             className="bg-[#303030] p-3 md:p-4 rounded-[10px] text-white text-lg md:text-xl transition-all duration-300"
             variants={socialButtonVariants}
